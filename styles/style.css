@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", serif;
+}
+
+:root {
+  --darkOne: #272727;
+  --darkTwo: rgba(39, 39, 39, 0.6);
+  --btnBg: #E55473;
+  --btnHover: #fd6d8d;
+  --headerBg: rgba(229, 84, 115, 0.1);
+  --whiteColor: #FFFFFF;
+}
+
+/* Header Area */
+.header {
+  background: var(--headerBg);
+}
+
+.header-content {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-texts {
+  width: 708px;
+}
+
+.header-title {
+  font-weight: 900;
+  font-size: 5rem;
+  color: var(--darkOne);
+  margin-bottom: 25px;
+}
+
+.header-description {
+  font-size: 1.3rem;
+  color: var(--darkTwo);
+  margin-bottom: 25px;
+}
+
+.btn-primary {
+  background-color: var(--btnBg);
+  border: none;
+  color: var(--whiteColor);
+  padding: 20px 45px;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 1.25rem;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.btn-primary:hover {
+  background-color: var(--btnHover);
+}
+
+.landing-img {
+  width: 635px;
+  height: 800px;
+}
