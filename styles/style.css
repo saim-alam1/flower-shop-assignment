@@ -14,56 +14,9 @@
   --btnHover: #fd6d8d;
   --headerBg: rgba(229, 84, 115, 0.1);
   --whiteColor: #FFFFFF;
+  --flowerOneBg: rgba(167, 33, 98, 0.15);
+  --flowerTwoBg: rgba(5, 151, 160, 0.15);
+  --flowerThreeBg: rgba(71, 125, 17, 0.15);
 }
 
 /* Header Area */
-.header {
-  background: var(--headerBg);
-}
-
-.header-content {
-  max-width: 1500px;
-  margin: 0 auto;
-  padding-top: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header-texts {
-  width: 708px;
-}
-
-.header-title {
-  font-weight: 900;
-  font-size: 5rem;
-  color: var(--darkOne);
-  margin-bottom: 25px;
-}
-
-.header-description {
-  font-size: 1.3rem;
-  color: var(--darkTwo);
-  margin-bottom: 25px;
-}
-
-.btn-primary {
-  background-color: var(--btnBg);
-  border: none;
-  color: var(--whiteColor);
-  padding: 20px 45px;
-  border-radius: 8px;
-  font-weight: 800;
-  font-size: 1.25rem;
-  cursor: pointer;
-  transition: 0.5s;
-}
-
-.btn-primary:hover {
-  background-color: var(--btnHover);
-}
-
-.landing-img {
-  width: 635px;
-  height: 800px;
-}
